@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.buttons{
+    @apply text-xl active:bg-[#89C4FC] font-bold shadow-2xl rounded-lg py-4 px-4 bg-white text-center border-2 border-black;
+}
+.diff{
+    @apply bg-[#3575B1] text-white active:bg-white active:text-black;
+}
+.f{
+    @apply bg-[#89C4FC];
+}

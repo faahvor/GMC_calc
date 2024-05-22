@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-black">
+    <div class="flex justify-center h-dvh items-center">
+      <div class="bg-[#A1BDFD] flex flex-col rounded-2xl">
+        <div class="flex gap-8 justify-between px-4 mt-4 items-center mb-3">
+          <h1 > <span class="text-2xl">Big Calculator</span><br /> <span class="text-lg ml-[5rem] mt-[60px]">By Favour</span></h1>
+          <div class="flex gap-4 *:border-2 *:rounded-full *:text-lg *:h-0 *:*:self-center *:py-3 *:px-2">
+            <i class="fa-solid fa-volume-xmark"></i>
+            <i class="fa-solid fa-fill"></i>
+            <i class="fa-solid fa-handshake-angle"></i>
+          </div>
+        </div>
+        <div  class="">
+            <input id="display" name="display" class="text-[50px] bg-gradient-to-b h-[6rem] from-[#626262] to-[#1C1C1C] text-[#38E33C] text-end outline-none">
+        </div>
+        <div class="grid grid-cols-4 mt-6 mx-4 gap-4 mb-2">
+            <input type="button" id="backSpace" value="C" class="buttons  diff f ">
+            <input  type="button" id="remove" value="AC" class="buttons  diff f ">
+            <input  type="button" id="modulo" value="%" class="buttons  diff">
+            <input value="÷" id="divide" type="button"  class="buttons  diff">
+            <input value="7" type="button" id="seven" class="buttons  mt-8">
+            <input value="8" type="button" id="eight" class="buttons  mt-8">
+            <input value="9" type="button" id="nine" class="buttons  mt-8">
+            <input value="X" id="multiply" type="button"  class="buttons  mt-8 diff">
+            <input value="4" type="button" id="four" class="buttons ">
+            <input id="five" type="button" class="buttons " value="5">
+            <input value="6" type="button" id="six" class="buttons ">
+            <input value="-" id="sub" type="button"class="buttons  diff">
+            <input value="1" type="button" id="one" class="buttons ">
+            <input value="2" type="button" id="two" class="buttons ">
+            <input value="3" type="button" id="three" class="buttons ">
+            <input value="+" id="add" type="button" class="buttons  diff">
+            <input value="0" type="button" id="zero" class="buttons ">
+            <input value="00" type="button" id="double" class="buttons ">
+            <input value="." type="button" id="dot" class="buttons ">
+            <input value="=" id="equal" type="button" class="buttons  diff">
+        </div>
+        
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
